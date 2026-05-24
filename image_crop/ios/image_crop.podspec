@@ -12,10 +12,10 @@ A flutter plugin to crop image on iOS and Android.
   s.license          = { :file => '../LICENSE' }
   s.author           = { '' => '' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'image_crop/Sources/image_crop/**/*.{h,m}'
+  s.public_header_files = 'image_crop/Sources/image_crop/include/*.h'
   s.dependency 'Flutter'
-  
-  s.ios.deployment_target = '8.0'
+
+  s.ios.deployment_target = '12.0'
 end
 
